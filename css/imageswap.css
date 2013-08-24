@@ -1,0 +1,9 @@
+#dogprom {
+    background: url(swapgifs/dogprom.png) no-repeat;
+    height: 225px;
+    width: 300px;
+}
+
+#dogprom:hover {
+    background: url(swapgifs/dogprom.gif)  no-repeat;
+}

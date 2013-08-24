@@ -1,0 +1,74 @@
+/*
+Theme Name: Lauren Krieger 2.0
+Description: Portfolio theme for Lauren Krieger's website
+Author: @linoleumtile - Beth McKeever
+Version: 1.0
+Tags: 
+*/
+
+/* ====== IMPORT OTHER STYLESHEETS + FONTS ====== */
+
+@import url('css/bootstrap.css'); 
+@import url('css/bootstrap-responsive.css'); 
+@import url('css/imageswap.css'); 
+
+
+/* ====== BACKGROUND ====== */
+
+
+
+/* ====== FONTS/TYPEFACES ====== */
+
+
+
+/* ====== NAVBAR ====== */
+
+
+
+/* ====== HEADER ====== */
+
+
+
+/* ====== BODY ====== */
+
+
+/* ====== IMAGES ====== */
+
+
+
+/* ====== POSTS ====== */
+
+
+
+/* ====== SIDEBAR ====== */
+
+
+
+/* ====== FOOTER ====== */
+
+
+
+/* ====== MISCELLANEOUS ====== */
+
+/* remove bullets from a list (because the widgets are set in unordered lists and widget titles don't need bullets) */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: inherit;
+  padding: inherit;
+  margin: inherit;
+  background-color: inherit;
+}
+
+/* create a class for bullets just in case */
+ul.bullets {
+  list-style-type: circle;
+}
+
+/* create a class to add extra padding */
+.padding25 {
+  padding-top: 25px;
+}
