@@ -1,9 +1,44 @@
+/* ========== STORYBOARDING ========== */
+
+/* Dog Prom */
 #dogprom {
     background: url(swapgifs/dogprom.png) no-repeat;
     height: 225px;
     width: 300px;
 }
-
 #dogprom:hover {
     background: url(swapgifs/dogprom.gif)  no-repeat;
+}
+
+/* Little Monster */
+#littlemonster {
+	background: url(swapgifs/littlemonster.png) no-repeat;
+	height: 225px;
+	width: 300px;
+}
+#littlemonster:hover {
+	background: url(swapgifs/littlemonster.gif) no-repeat;
+}
+
+/* This thing ? */
+#thisthing {
+	background: url(swapgifs/thisthing.png) no-repeat;
+	height: 225px;
+	width: 300px;
+}
+
+#thisthing:hover {
+	background: url(swapgifs/thisthing.gif) no-repeat;
+}
+
+/* ========== LIFE DRAWING ========== */
+
+/* Live model poses */
+#lifedrawing {
+	background: url(swapgifs/lifedrawing.png) no-repeat;
+	height: 225px;
+	width: 300px;
+}
+#lifedrawing:hover {
+	background: url(swapgifs/lifedrawing.gif) no-repeat;
 }

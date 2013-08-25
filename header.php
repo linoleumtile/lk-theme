@@ -8,7 +8,6 @@
 
         <!--Styles-->
         <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
-
         <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
         <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 
@@ -23,14 +22,29 @@
     </head>
 <body>
   <div id="wrap">
-    <!-- Navbar
-    ================================================== -->
+    <!-- Navbar    ================================================== -->
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.php"><?php echo '' . get_bloginfo('name'); ?><span id="description"> &nbsp;&nbsp;>> <?php echo '' . get_bloginfo('description'); ?></span></a>
+    </div><!--navbar-header-->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <?php wp_nav_menu( array( 
+            'theme_location' => 'header-menu',
+            'menu' => 'header-menu',
+            'container' => false,
+            'menu_class' => 'nav navbar-nav navbar-right padding-right',
+            ) ); ?>
+    </div><!-- /.navbar-collapse -->
   </nav>
+<!--end navbar-->
 
-<!-- Subhead
-================================================== -->
+<!-- Subhead      ================================================== -->
 
 <!--end subhead-->
 

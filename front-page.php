@@ -1,18 +1,33 @@
 <?php
 /*
-Template Name: Home
+Template Name: Front Page
 */
 get_header();
 ?>
-
-		<div id="primary">
-			<div id="content" class="container-fluid" role="main">
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<?php the_content(); ?>
-				<?php endwhile; else: ?>
-				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-				<?php endif; ?>
-			</div><!-- #content -->
-		</div><!-- #primary -->
+<div class="page-header">
+<h1>Portfolio</h1>
+	</div>
+		<div class="clicky row col-md-12 container">
+			<h2>Storyboarding</h2>
+			<div id="storyboarding">
+				<?php
+				query_posts('cat=4');
+				while (have_posts()) : the_post();
+				the_content();
+				endwhile;
+	 			?>
+			</div><!--storyboarding-->
+		</div>
+		<div class="row col-md-12 container">
+			<h2>Life drawing</h2>
+			<div id="life-drawing">
+				<?php
+				query_posts('cat=5');
+				while (have_posts()) : the_post();
+				the_content();
+				endwhile;
+				?>
+			</div><!--life drawing-->
+		</div>
 
 <?php get_footer(); ?>
