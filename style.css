@@ -12,15 +12,34 @@ Tags:
 @import url('css/bootstrap-theme.min.css');
 @import url('css/imageswap.css');
 @import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow:400,400italic,700);
 
 
 /* ====== BACKGROUND ====== */
-
+html, body, #wrap {
+  background-image: url(css/greyzz.png) !important;
+  background-repeat: repeat !important;
+  z-index: 500;
+}
 
 
 /* ====== FONTS/TYPEFACES ====== */
-
-
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Archivo Narrow', sans-serif;
+  color: #64332d;
+}
+p, li {
+  font-size: 18px;
+}
+h1 {
+  font-weight: bold;
+}
+.sub {
+  font-style: italic;
+}
+.grey {
+  color: #a28481;
+}
 
 /* ====== NAVBAR ====== */
 
@@ -85,9 +104,9 @@ li.current-menu-item > a {
 /*style all navbar items */
 li.menu-item {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   margin: 5px;
-  height: 75px;
+  height: 80px;
   width: 100px;
   text-align: center;
 }
@@ -95,7 +114,60 @@ li.menu-item {
 
 /* ====== BODY ====== */
 
-
+/* style social icons */
+.social {
+  height: 120px;
+  width: 120px;
+  background-color: #fa8072;
+  border-bottom: 2px solid #c8665b;
+  border-right: 2px solid #c8665b;
+  border-radius: 3px;
+  box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
+}
+.social:hover{
+  background-color: #e17366;
+  border-bottom: 2px solid #c8665b;
+  border-right: 2px solid #c8665b;
+}
+.social a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.social a:hover {
+  color: #fef2f0;
+}
+a.fill {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: inherit;
+}
+.socialname {
+  position: relative;
+  top: 92px;
+  left: 8px;
+}
+#instagram {
+  background-image: url(css/instagram-64.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#tumblr {
+  background-image: url(css/tumblr-64.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#vimeo {
+  background-image: url(css/vimeo-64.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#twitter {
+  background-image: url(css/twitter-64.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /* ====== IMAGES ====== */
 
@@ -105,43 +177,62 @@ li.menu-item {
 
 /* style storyboarding posts */
 .feature {
-  margin-right:20px;
-  margin-bottom: 20px;
-  margin-left: -5px;
+  position: relative;
+  top: 10px;
+  left: -3px;
+  box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
 }
-
 div.feature a {
   display: block;
   width: 100%;
   height: 100%;
 }
-
 .linkfix:hover {
   color: #ffffff;
 }
-
 a:hover {
   text-decoration: none;
 }
-
 .linkfix {
   position: relative;
-  top: 180px;
-  font-size: 16px;
+  top: 185px;
+  left: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: #fa8072;
-  background-color: rgba(54,54,54,.6);
+  background-color: rgba(54,54,54,.8);
   padding: 5px;
   border-radius: 3px;
 }
-
+.holder {
+  margin-right:20px;
+  margin-bottom: 20px;
+  background-color: #fa8072;
+  height: 248px;
+  width: 324px;
+  border-bottom: 3px solid #c8665b;
+  border-right: 3px solid #c8665b;
+  border-radius: 3px;
+  box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
+}
 
 /* ====== SIDEBAR ====== */
 
 
 
 /* ====== FOOTER ====== */
+footer {
+  background-color: #fa8072;
+  height: 55px;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+}
 
+div.footer > p {
+  color: #ffffff;
+  padding-top: 15px;
+}
 
 
 /* ====== MISCELLANEOUS ====== */

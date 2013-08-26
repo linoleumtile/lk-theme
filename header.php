@@ -31,7 +31,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.php"><?php echo '' . get_bloginfo('name'); ?><span id="description"> &nbsp;&nbsp;>> <?php echo '' . get_bloginfo('description'); ?></span></a>
+        <a class="navbar-brand" href="/wordpress/"><?php echo '' . get_bloginfo('name'); ?></a>
     </div><!--navbar-header-->
     <div class="collapse navbar-collapse navbar-ex1-collapse">
         <?php wp_nav_menu( array( 

@@ -1,11 +1,11 @@
 <?php
 /*
-Template Name: Front page
+Template Name: About
 */
 get_header();
 ?>
 <div class="page-header">
-<h1>Home</h1>
+<h1>About</h1>
 	</div>
 		<div class="clicky row col-md-12 container">
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>

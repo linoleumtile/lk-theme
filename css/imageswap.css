@@ -9,6 +9,14 @@
 #dogprom:hover {
     background: url(swapgifs/dogprom.gif)  no-repeat;
 }
+@media only screen and (max-width: 480px) {
+    #dogprom { 
+    	background: url(swapgifs/dogprom.gif) no-repeat;
+		height: 225px;
+		width: 300px; 
+	}
+}
+
 
 /* Little Monster */
 #littlemonster {
@@ -19,6 +27,13 @@
 #littlemonster:hover {
 	background: url(swapgifs/littlemonster.gif) no-repeat;
 }
+@media only screen and (max-width: 480px) {
+    #littlemonster { 
+    	background: url(swapgifs/littlemonster.gif) no-repeat;
+		height: 225px;
+		width: 300px; 
+	}
+}
 
 /* This thing ? */
 #thisthing {
@@ -26,9 +41,15 @@
 	height: 225px;
 	width: 300px;
 }
-
 #thisthing:hover {
 	background: url(swapgifs/thisthing.gif) no-repeat;
+}
+@media only screen and (max-width: 480px) {
+    #thisthing { 
+    	background: url(swapgifs/thisthing.gif) no-repeat;
+		height: 225px;
+		width: 300px; 
+	}
 }
 
 /* ========== LIFE DRAWING ========== */
@@ -41,4 +62,29 @@
 }
 #lifedrawing:hover {
 	background: url(swapgifs/lifedrawing.gif) no-repeat;
+}
+@media only screen and (max-width: 480px) {
+    #lifedrawing { 
+    	background: url(swapgifs/lifedrawing.gif) no-repeat;
+		height: 225px;
+		width: 300px; 
+	}
+}
+
+
+/* Dogs */
+#dogs {
+	background: url(swapgifs/dogs.png) no-repeat;
+	height: 225px;
+	width: 300px;
+}
+#dogs:hover {
+	background: url(swapgifs/dogs.gif) no-repeat;
+}
+@media only screen and (max-width: 480px) {
+    #dogs { 
+    	background: url(swapgifs/dogs.gif) no-repeat;
+		height: 225px;
+		width: 300px; 
+	}
 }
